@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/addnote.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="back">
+
+        <div class="link">
+            <a href="/" style="color:#707070">Go back</a>
+        </div>
+        {{#if errorMessage}}
+        <p class="errormessage">{{errorMessage}}</p>
+        {{/if}}
+        {{#if alert}}
+        <p class="succesmessage">{{alert}}</p>
+        {{/if}}
+
+        <form action="/note/save" method="post" class="form2">
+            <input type="text" name="title" id="title" placeholder="Title" autocomplete="off" autofocus>
+            <textarea type="text" name="note" id="note" placeholder="Note..." autocomplete="off"></textarea><br>
+            <button type="submit" id="submitNote" name="submitNote">submit note</button>
+        </form>
+    </div>
+
+</body>
+
+</html>

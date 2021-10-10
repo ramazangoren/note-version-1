@@ -1,0 +1,140 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #E4E4E4;
+}
+
+.back{
+    width: 600px;
+    height: 680px;
+    background-color: white;
+    /* background-color: red; */
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+
+
+#search
+{
+    height:35px;
+    width:400px;
+    border-radius:5px;
+    border: 1px solid #707070;
+    color: #707070;
+    padding-left: 20px;
+}
+
+.error{
+    color: #D8000C;
+	background-color: #FFBABA;
+    margin-left: 54px;
+    margin-right: 150px;
+    margin-top:5px;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+
+
+#searchButton{
+    height:35px;
+    width:90px;
+    border-radius:5px;
+    border: 1px solid #707070;
+    color: #707070;
+    cursor:pointer;
+    margin-right: 25px;
+    font-size: 17px;
+}
+
+
+#note
+{
+     font-size: 20px;
+     color: #707070;
+}
+
+.far
+{
+   font-size: 17px;
+}
+
+
+#submit
+{
+    background-color:white;
+    width:40px;
+    height:40px;
+    border-radius:5px;
+    border: 1px solid #707070;
+    color: #707070;
+    cursor: pointer;
+    padding-top: 10px;
+    margin-right: 3px;
+}
+
+.form{
+    /* width: 400px; */
+    height: 500px;
+    background-color:white;
+    /* background-color: yellow; */
+    margin: auto;
+    margin-top: 10px;
+    overflow: scroll;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #707070;
+}
+
+
+#btn
+{
+    margin-right: -400px;
+    font-size: 18px;
+    border-radius:5px;
+    border: 1px solid #707070;
+    color: #707070;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:white;
+}
+
+a
+{
+    text-decoration: none;
+    
+    
+}
+
+.back > a
+{
+    margin-top: 20px;
+}
+
+
+
+.paragraph
+{
+    width: 400px;
+    height:40px;
+    background-color:white;
+    border-radius:5px;
+    border: 1px solid #707070;
+    color: #707070;
+    cursor: pointer;
+    margin-left: 40px;
+    padding-top: 10px;
+    padding-right: 200px;
+    overflow: hidden;
+}

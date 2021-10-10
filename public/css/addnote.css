@@ -1,0 +1,127 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #E4E4E4;
+    font-family: arial,sans-serif;
+}
+
+.back{
+    width: 600px;
+    height: 540px;
+    background-color: red;
+    background-color: white;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+
+.link
+{
+    height:30px;
+    width:100px;
+    background-color:white;
+    color: black;
+    font-size: 16px;
+    padding-top: 5px;
+    border: 1px solid #707070;
+    color: #707070;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+
+.form1
+{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#title
+{
+    height:40px;
+    width:350px;
+    padding-left: 15px;
+    border-radius: 5px;
+    border: 1px solid #707070;
+    color: #707070;
+    /* margin-right: 100px; */
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+
+.errormessage
+{
+    padding: 2px;
+    font-size: 13px;
+    margin-left: 125px;
+    margin-right: 125px;
+    padding: 5px;
+    border-radius:3px;
+    color: #333;
+    background: #fafafa;
+    border: 1px solid #ccc;
+    color: #ba3939;
+    background: #ffe0e0;
+    border: 1px solid #a33a3a;
+}
+.succesmessage
+{
+    padding: 2px;
+    font-size: 13px;
+    margin-left: 125px;
+    margin-right: 125px;
+    padding: 5px;
+    border-radius:3px;
+    color: #333;
+    background: #fafafa;
+    border: 1px solid #ccc;
+    color: #2b7515;
+    background: #ecffd6;
+    border: 1px solid #617c42;
+}
+
+
+#note
+{
+    height:300px;
+    width:350px;
+    border-radius: 5px;
+    border: 1px solid #707070;
+    color: #707070;
+    padding: 20px;
+    resize: none;
+}
+
+
+#submitNote, #submit
+{
+    font-size: 15px;
+    border-radius:5px;
+    border: 1px solid #707070;
+    color: #707070;
+    cursor: pointer;
+    /* padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px; */
+    background-color:white;
+    width: 90px;
+    height: 40px;
+    margin-top: 10px;
+}
+
