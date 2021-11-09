@@ -6,10 +6,10 @@ const router = express.Router()
 
 const pool = mysql.createPool({
     connectionLimit: 10000,
-    host: "localhost",
-    user: "root",
-    password: "Ramo0404",
-    database: "TO_DO"
+    host: "sql11.freesqldatabase.com",
+    user: "sql11449719",
+    password: "RpwKLmjr9X",
+    database: "sql11449719"
 })
 
 
@@ -17,7 +17,7 @@ router.get('/', function (req, res) {
 
     pool.getConnection((err, connection) => {
         if (err) throw err;
-        console.log('connected is ID' + connection.threadId);
+        // console.log('connected is ID' + connection.threadId);
 
         connection.query("SELECT * FROM task ", (error, rows) => {
             connection.release();
@@ -142,7 +142,7 @@ router.post('/editnote/:id', (req, res)=>{
 
 
 router.get('/:id', function (req, res) {
-    const noteData = req.body;
+
     pool.getConnection((err, connection) => {
         if (err) throw err;
         connection.query("DELETE FROM task WHERE id=?", [req.params.id], (error, rows) => {

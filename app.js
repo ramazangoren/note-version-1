@@ -2,7 +2,6 @@ const express = require('express');
 const hbs = require('hbs');
 const mysql = require('mysql');
 const path = require('path');
-const bodyParser = require('body-parser');
 const app = express();
 const port = 4000;
 
