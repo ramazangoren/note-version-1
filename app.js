@@ -3,7 +3,7 @@ const hbs = require('hbs');
 const mysql = require('mysql');
 const path = require('path');
 const app = express();
-const port = 4000;
+const PORT =  process.env.PORT || 4000;
 
 const publicDirectoryPath = path.join(__dirname, './public')
 const viewPath = path.join(__dirname, './views')
@@ -22,6 +22,6 @@ const routers = require('./routes/pages')
 app.use('/', routers)
 
 
-app.listen(port, function(){
-    console.log('listening on port ' + port);
+app.listen(PORT, function(){
+    console.log('listening on port ' + PORT);
 })
