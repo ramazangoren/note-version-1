@@ -6,10 +6,10 @@ const router = express.Router()
 
 const pool = mysql.createPool({
     connectionLimit: 10000,
-    host: "sql11.freesqldatabase.com",
-    user: "sql11449719",
-    password: "RpwKLmjr9X",
-    database: "sql11449719"
+    host: "localhost",
+    user: "root",
+    password: "password",
+    database: "yourdatabase"
 })
 
 

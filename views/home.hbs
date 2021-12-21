@@ -33,7 +33,7 @@
         
             {{#each rows}}
             <div style="display:flex; margin-bottom: 10px;">
-                    <p id="note" name="note" class="paragraph">Title: {{this.title}} </p> &nbsp;&nbsp;  
+                <p id="note" name="note" class="paragraph">{{this.title}} </p> &nbsp;&nbsp;  
                 <a href="/editnote/{{this.id}}" type="submit" id="submit" name="submit"><i class="far fa-eye"></i></a>&nbsp;
                 <a href="/{{this.id}}" type="submit" id="submit" name="submit"><i class="far fa-trash-alt"></i></a>
             </div>
